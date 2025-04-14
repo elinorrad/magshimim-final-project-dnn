@@ -1,0 +1,16 @@
+
+link to D_LABITEMS.csv:
+
+https://drive.google.com/file/d/1SloHcslhhT5nHUFsqZbDmO0Blt-1qu1c/view?usp=drive_link
+
+link to DIAGNOSES_ICD.csv:
+
+https://drive.google.com/file/d/1Y8c6Uh0hKlXHKV0BBKL-1iX0XaTFVuoI/view?usp=drive_link
+
+link to icd9toicd10cmgem.csv:
+
+https://drive.google.com/file/d/1Y8c6Uh0hKlXHKV0BBKL-1iX0XaTFVuoI/view?usp=drive_link
+
+link to LABEVENTS.csv:
+
+https://drive.google.com/file/d/1rxdrOtqN5OMqqr9vFcKAUHcxJ0gKu9cp/view?usp=drive_link
