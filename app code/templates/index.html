@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חיזוי אבחנה רפואית</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        form { display: inline-block; text-align: left; }
+        input { display: block; margin: 5px 0; padding: 5px; width: 100px; }
+        button { padding: 10px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h2>הכנס נתונים רפואיים</h2>
+    <form action="/predict" method="post">
+        <input type="text" name="f1" placeholder="169" required>
+        <input type="text" name="f2" placeholder="24" required>
+        <input type="text" name="f3" placeholder="18.7" required>
+        <input type="text" name="f4" placeholder="8.7" required>
+        <input type="text" name="f5" placeholder="4.3" required>
+        <input type="text" name="f6" placeholder="1.5" required>
+        <input type="text" name="f7" placeholder="38.8" required>
+        <input type="text" name="f8" placeholder="12.1" required>
+        <input type="text" name="f9" placeholder="106" required>
+        <input type="text" name="f10" placeholder="4" required>
+        <input type="text" name="f11" placeholder="4.5" required>
+        <input type="text" name="f12" placeholder="3" required>
+        <input type="text" name="f13" placeholder="6.6" required>
+        <input type="text" name="f14" placeholder="139" required>
+        <input type="text" name="f15" placeholder="28.1" required>
+        <input type="text" name="f16" placeholder="31.1" required>
+        <input type="text" name="f17" placeholder="90" required>
+        <input type="text" name="f18" placeholder="70" required>
+        <input type="text" name="f19" placeholder="14" required>
+        <input type="text" name="f20" placeholder="14" required>
+        <button type="submit">חזה אבחנה</button>
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
