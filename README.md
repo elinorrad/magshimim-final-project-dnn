@@ -60,7 +60,7 @@ Still, this challenge provided deep insight into working with medical data and u
 - Python
 - Pandas  
 - TensorFlow 
-- NumPy, pandas, matplotlib  
+- NumPy, pandas
 - Jupyter Notebook  
 - Git for version control  
 
